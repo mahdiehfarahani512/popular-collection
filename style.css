@@ -5,7 +5,7 @@ box-sizing: border-box;
 button{
     border: none;
     background-color: white;
-     padding: 10px;
+     padding: 11px;
     border-radius: 6px;
 }
 body{
@@ -38,32 +38,48 @@ height: 45px;
 .cards{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
+    justify-content: center;
 }
 .images{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 15px;
 }
 .card{
     background-color: white;
     padding: 16px;
     border-radius: 8px;
+    
+   
 
 }
 .popu{
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 17px;
+    margin-top: 17px;
 }
 .foot{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+     margin-top: 17px;
 }
 .svg{
     display: flex;
     flex-direction: row;
    height: 24px;
    
+}
+.num{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.p{
+    font-weight: bold;
+}
+.main{
+    width: auto;
 }
